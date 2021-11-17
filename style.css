@@ -99,6 +99,34 @@ nav div{
     margin-left: 7px;
     color: rgb(194, 194, 194);
 }
-h1{
+h2{
     color: white;
+}
+.allblocs{
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.blocco{
+    width: 150px;
+    height: 220px;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blocco img{
+    width: 100%;
+}
+.title{
+    margin-top: 20px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+.subtitle{
+    margin-top: 10px;
+    color:rgb(194, 194, 194);
+    font-size: 9px;
 }
