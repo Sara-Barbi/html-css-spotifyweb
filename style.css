@@ -110,7 +110,7 @@ h2{
     flex-wrap: wrap;
 }
 .blocco{
-    width: 180px;
+    width: 170px;
     height: 250px;
     margin-top: 10px;
     margin-right: 10px;
@@ -150,16 +150,14 @@ h2{
 .riproduci i{
     font-size: 12px;
 }
-.infosong{
-    width:25%;
-}
 .volume{
-    width:25%;
+    width:20%;
 }
 .brano{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-left: 10px;
     width: 15%;
 }
 .like-save{
