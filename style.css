@@ -32,7 +32,8 @@ body{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    width: 40px; 
+    width: 40px;
+    color: rgb(103, 103, 103); 
     min-height: 500px;
     margin-bottom: 80px;
     background-color: black;
@@ -256,7 +257,7 @@ h2{
 h4{
     display: none;
 }
-.crea{
+.creablock{
     display: none;
 }
 .playlist{
@@ -284,12 +285,12 @@ h4{
     .top div:first-child .scompaio {
         display: none;
     }
-    .top div:first-child{
+    .top .small{
         display: block;
         height: 80px;
         font-size: 0;
     }
-    .top div{
+    .small, .home, .search, .library {
         display: flex;
         width: 100%;
         align-items: flex-end;
@@ -307,11 +308,31 @@ h4{
     .i{
         flex-direction: row;
     }
+    .creablock{
+        display: block;
+    }
     .playlist{
         display: block;
         list-style: none;
     }
+   .quadrato{
+       width: 25px;
+       height: 25px;
+       background-color:rgb(103, 103, 103);
+       position: relative;
+    }
+    .quadrato i{
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color:black;
+        font-size: 12px;
+    }
    
+
+
+
 }
    
    
