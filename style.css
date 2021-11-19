@@ -15,6 +15,10 @@ body{
     position: fixed;
     top: 0;
 }
+.songs{
+    width: 95%;
+    margin: 0 auto;
+}
 .grade{
     display: flex;
     height: 100%;
