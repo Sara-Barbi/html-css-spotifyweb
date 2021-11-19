@@ -288,11 +288,7 @@ h4{
     display: none;
 }
 .acapo{
-    width: 50%;
-    display: flex;
-}
-.acapo .blocco{
-    width: 45%;
+    display: none;
 }
 @media screen and (min-width:450px){
     .vertical-nav{
@@ -417,5 +413,12 @@ h4{
     .blocco{
         width: 23%;
     }
-
+    .acapo{
+        display: block;
+        width: 50%;
+        display: flex;
+    }
+    .acapo .blocco{
+        width: 45%;
+    }
 }
