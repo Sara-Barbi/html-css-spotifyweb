@@ -109,6 +109,7 @@ body{
 }
 main{
     padding-top: 80px;
+    padding-bottom: 80px;
     margin-left: 40px;
     background-color: rgb(28, 28, 37);
 }
@@ -287,6 +288,12 @@ h4{
 .llogo{
     display: none;
 }
+.perte{
+    display: none;
+}
+.ascolta{
+    display: none;
+}
 .acapo{
     display: none;
 }
@@ -413,6 +420,13 @@ h4{
     .blocco{
         width: 23%;
     }
+    .perte{
+        display: block;
+
+    }
+    .ascolta{
+        display: block;
+    }
     .acapo{
         display: block;
         width: 50%;
@@ -421,4 +435,29 @@ h4{
     .acapo .blocco{
         width: 45%;
     }
+
+    .ascolta{
+        color: rgb(194, 194, 194,.5) ;
+        margin-bottom: 20px;
+        font-size: 13px;
+    }
+    .perte{
+        color: white;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media screen and (min-width:900px) {
+    .blocco{
+        width: 15%;
+    }
+    .acapo{
+        width: 33%;
+    }
+    .acapo .blocco{
+        width:45%
+    }
+    
 }
