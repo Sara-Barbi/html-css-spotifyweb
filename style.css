@@ -299,14 +299,15 @@ h4{
 .creablock{
     display: none;
 }
+
+.blocco img:hover{
+    opacity: 0.4;
+}
 .playlist{
     display: none;
 }
 .llogo{
     display: none;
-}
-.blocco{
-    width: 45%%;
 }
 .acapo{
     display: block;
