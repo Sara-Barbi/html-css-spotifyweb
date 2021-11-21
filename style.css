@@ -208,11 +208,15 @@ h2{
     flex-wrap: wrap;
     margin-left: 10px;
 }
+.player-bar:hover .general{
+    background-color: yellowgreen;
+}
 .like-save{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     color: rgb(169, 168, 167);
-    width: 4%;
+    width: 18%;
 }
 .centerr{
     display: flex;
