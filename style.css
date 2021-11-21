@@ -226,7 +226,7 @@ h2{
 }
 .menage{
     display: flex;
-
+    align-items: center;
 }
 .time{
     width: 100%;
@@ -243,7 +243,7 @@ h2{
 .menage i{
     margin-left: 10px;
     margin-right: 10px;
-    font-size: 15px;
+    font-size: 20px;
     cursor: pointer;
 }
 .player-bar{
