@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 body{
-    font-style: ;
-    font-size: ;
     position: relative;
 }
 .upgrade{
@@ -79,7 +77,6 @@ body{
 .vertical-nav span{
     display: none;  
 }
-
 .i{
     display: flex;
     flex-direction: column;
